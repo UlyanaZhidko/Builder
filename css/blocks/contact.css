@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.contact-text .contact-title {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+}  
+.contact-text .contact-city {
+    font-size: 18px;
+    margin-left: 300px;
+    line-height: 60px;
+}
+.contact-text .contact-address {
+    font-size: 14px;
+    margin-left: 300px;
+    line-height: 30px;
+    opacity: .7;
+}
+.map {
+    width: 450px;
+    opacity: .6;
+    transition: opacity .5s ease;
+    margin-left: 300px;
+    margin-bottom: 60px;
+}
+.map:hover {
+    opacity: 1;
+}
+.contact-button {
+    margin-bottom: 55px;
+    margin-top: 50px;
+    text-align: center;
+}
+input, textarea {
+    width: 500px;
+    padding: 12px 20px;
+    box-sizing: border-box; 
+    margin-left: 800px;
+    margin-bottom: 20px;
+}
+.form {
+margin-top: -455px;
+}
+#comment {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 108px;
+}
+#send {
+    margin-top: 10px;
+}
+@media (max-width: 768px) {
+    .contact-text .contact-city {
+        margin-left: 20px;
+        font-size: 14px;
+   }
+   .contact-text .contact-address{
+       margin-right: 20px;
+       margin-left: 120px;
+       margin-top: -45px;
+       font-size: 12px;
+       white-space: nowrap;
+       text-align: right;
+   }
+   br {
+    display: none;
+    }
+    .map {
+        margin-left: 20px;
+        width: 350px;
+    }
+    .form {
+        margin-top: -328px;
+    }
+    input, textarea {
+        width: 350px;
+        font-size: 10px;
+        margin-left: 400px;
+        margin-bottom: 10px;
+    }
+    #comment {
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    #send {
+        margin-top: -1px;
+    }
+
+}
+@media (max-width: 480px) { 
+    .contact-text .contact-city {
+         margin-left: 20px;
+         font-size: 14px;
+    }
+    .contact-text .contact-address{
+        margin-right: 20px;
+        margin-left: 120px;
+        margin-top: -45px;
+        font-size: 12px;
+        white-space: nowrap;
+        text-align: right;
+    }
+    br {
+        display: none;
+    }
+    .map {
+        margin-left: 20px;
+        width: 320px;
+    }
+    .form {
+        margin-top: -45px;
+        margin-left: -800px;
+    }
+    input, textarea {
+        width: 320px;
+        padding: 10px;
+        font-size: 10px;
+        margin-left: 820px;
+        margin-bottom: 10px;
+    }
+}

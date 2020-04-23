@@ -1,0 +1,125 @@
+.project-img {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+}
+.project-img img {
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+.project-text .project-title {
+    font-size: 36px;
+    margin-bottom: 35px;
+    margin-left: 170px;
+    margin-top: 20px;
+}  
+.project-button {
+    margin-bottom: 55px;
+    text-align: center;
+}
+.inform {
+    background-color: #6bc2f1;
+    width: 100%;
+    height: 550px;
+    position: relative; 
+}
+.inform::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(to left, rgba(0,80,131,1), rgba(34,185,119,1));
+    z-index: 1;
+}
+.gradient {
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+}
+.quotes {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 100px;
+    padding-top: 120px;
+    line-height: 30px;
+    opacity: .9;
+}
+.inform-text p {
+    font-size: 16px;
+    line-height: 30px;
+    color:white;
+    width: 770px;
+    text-align: center;
+    margin-left: 25%;
+    opacity: .85;
+}
+.inform-name {
+    font-size: 14px;
+    color:white;
+    text-align: center;
+    padding-top: 30px;
+}
+.inform-post {
+    font-size: 13px;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+    opacity: .7;
+}
+.inform-img {  
+    padding-top: 40px;
+    text-align: center;
+}
+.left {
+    padding-bottom: 10px;
+    padding-right: 20px;
+    opacity: .5;
+}
+.right {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    opacity: .5;
+}
+@media (max-width: 768px) {
+    .project-text .project-title {
+        margin-left: 20px;
+    }
+    .inform-text p {
+        width: 410px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .project-img img{
+        width: 50%;
+    }
+}
+@media (max-width: 480px) {
+    .project-text .project-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .inform-text p {
+        width: 280px;
+        font-size: 12px;
+        line-height: 20px;
+        margin-left: 50px;
+    }
+    .project-button {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .project-img {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0px; 
+    }
+    .project-img img{
+        width: 50%;
+    }
+}
